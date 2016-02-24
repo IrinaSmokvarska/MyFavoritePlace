@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bongard-Viking-Sky-1-Mar-2011-Amsterdam-Canal-Tour-2" translatesAutoresizingMaskIntoConstraints="NO" id="kj4-0x-Omz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9sG-0K-V5p">
+                                <rect key="frame" x="44" y="95" width="176" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="DI0-WQ-YSZ"/>
+                                    <constraint firstAttribute="width" constant="176" id="bcx-k8-e7V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amsterdam" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yla-9n-DE3">
+                                <rect key="frame" x="60" y="39" width="149" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="08G-xI-OmB"/>
+                                    <constraint firstAttribute="width" constant="149" id="4RU-oz-zjt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The golden age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltC-37-boq">
+                                <rect key="frame" x="44" y="69" width="192" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="W5p-PE-Qec"/>
+                                    <constraint firstAttribute="height" constant="31" id="vmU-wU-Aoq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" red="0.76542048429999998" green="0.61830959190000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="KmH-AS-UOA">
+                                <rect key="frame" x="7" y="212" width="57" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="kos-fZ-OZA"/>
+                                    <constraint firstAttribute="height" constant="51" id="vxQ-mK-ZGo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Holland" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpB-NW-EMU">
+                                <rect key="frame" x="43" y="199" width="183" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="0yM-vB-Qia"/>
+                                    <constraint firstAttribute="width" constant="183" id="H6P-fU-gEt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="37"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hP-Ip-MSk" customClass="typeOfAmsterdamButton" customModule="favorite_place" customModuleProvider="target">
+                                <rect key="frame" x="20" y="285" width="116" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="kfc-DX-gXe"/>
+                                    <constraint firstAttribute="height" constant="50" id="luD-BA-8Hx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="The cannals">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dwC-mz-ya6" kind="show" id="S4d-zX-asR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NKm-Lv-dJ6" customClass="typeOfAmsterdamButton" customModule="favorite_place" customModuleProvider="target">
+                                <rect key="frame" x="20" y="343" width="172" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="172" id="Jo1-tb-hSv"/>
+                                    <constraint firstAttribute="height" constant="50" id="Lrb-xO-Q4P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Red light district">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7fz-34-xcm" kind="show" id="ho8-7S-bBl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asA-bV-WMX" customClass="typeOfAmsterdamButton" customModule="favorite_place" customModuleProvider="target">
+                                <rect key="frame" x="20" y="406" width="127" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Fl3-Nx-pj3"/>
+                                    <constraint firstAttribute="width" constant="127" id="bAg-Nw-Kmt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Coffee shops">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="s8h-Pk-197" kind="show" id="dFd-C5-EN0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HyR-Zk-sBd" customClass="typeOfAmsterdamButton" customModule="favorite_place" customModuleProvider="target">
+                                <rect key="frame" x="20" y="469" width="114" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1m4-Go-egv"/>
+                                    <constraint firstAttribute="width" constant="114" id="Gs8-2h-cxd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Bars">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lne-NV-VkW" kind="show" id="Bz4-FS-41N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4hP-Ip-MSk" firstAttribute="top" secondItem="rpB-NW-EMU" secondAttribute="bottom" constant="8" id="4Ft-q7-M9w"/>
+                            <constraint firstItem="HyR-Zk-sBd" firstAttribute="top" secondItem="asA-bV-WMX" secondAttribute="bottom" constant="13" id="6Lv-Qz-Or5"/>
+                            <constraint firstItem="asA-bV-WMX" firstAttribute="top" secondItem="NKm-Lv-dJ6" secondAttribute="bottom" constant="13" id="D2z-GK-tZF"/>
+                            <constraint firstItem="kj4-0x-Omz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="F3L-Mo-hap"/>
+                            <constraint firstItem="HyR-Zk-sBd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="LI5-yQ-cvw"/>
+                            <constraint firstItem="NKm-Lv-dJ6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="NlI-I0-429"/>
+                            <constraint firstItem="ltC-37-boq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="44" id="Q2h-Ar-h4e"/>
+                            <constraint firstItem="asA-bV-WMX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="QPm-Gf-CaB"/>
+                            <constraint firstItem="KmH-AS-UOA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="7" id="RVK-op-y8e"/>
+                            <constraint firstItem="9sG-0K-V5p" firstAttribute="top" secondItem="ltC-37-boq" secondAttribute="bottom" constant="-5" id="SL4-8q-sQp"/>
+                            <constraint firstItem="kj4-0x-Omz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="XAE-G6-Jz8"/>
+                            <constraint firstAttribute="trailing" secondItem="kj4-0x-Omz" secondAttribute="trailing" id="dS2-fv-xBQ"/>
+                            <constraint firstItem="4hP-Ip-MSk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="eiB-bx-AIy"/>
+                            <constraint firstItem="rpB-NW-EMU" firstAttribute="top" secondItem="9sG-0K-V5p" secondAttribute="bottom" constant="67" id="keV-6D-QJe"/>
+                            <constraint firstItem="NKm-Lv-dJ6" firstAttribute="top" secondItem="4hP-Ip-MSk" secondAttribute="bottom" constant="8" id="mu9-fC-iGo"/>
+                            <constraint firstItem="yla-9n-DE3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="siL-nf-cxs"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kj4-0x-Omz" secondAttribute="bottom" id="vYw-Hy-3FM"/>
+                            <constraint firstItem="yla-9n-DE3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="vnG-ZT-NJl"/>
+                            <constraint firstItem="KmH-AS-UOA" firstAttribute="top" secondItem="9sG-0K-V5p" secondAttribute="bottom" constant="80" id="w3t-3v-da3"/>
+                            <constraint firstItem="9sG-0K-V5p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="44" id="xVU-Dc-WAq"/>
+                            <constraint firstItem="rpB-NW-EMU" firstAttribute="leading" secondItem="KmH-AS-UOA" secondAttribute="trailing" constant="-21" id="ysM-St-wMF"/>
+                            <constraint firstItem="ltC-37-boq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="49" id="zmI-sf-Ndf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="422" y="-160"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kz0-wV-h0T">
+            <objects>
+                <viewController id="7fz-34-xcm" customClass="ViewController" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ySA-3G-bhE"/>
+                        <viewControllerLayoutGuide type="bottom" id="MdF-JS-kKm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xje-8Y-oCp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="amsterdam-red-light-district-001-1500x850" translatesAutoresizingMaskIntoConstraints="NO" id="M14-oa-ovH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="330"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="330" id="yYV-ah-2Gs"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKc-wf-ulY" customClass="typeOfAmsterdamButton" customModule="favorite_place" customModuleProvider="target">
+                                <rect key="frame" x="42" y="20" width="119" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="keb-yB-otF"/>
+                                    <constraint firstAttribute="width" constant="119" id="tr5-OF-YXi"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="pressedBackDistrict:" destination="7fz-34-xcm" eventType="touchUpInside" id="Lln-hJ-NSp"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tlx-pw-dn0">
+                                <rect key="frame" x="20" y="338" width="560" height="236"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="236" id="3iD-FX-yHd"/>
+                                    <constraint firstAttribute="width" constant="560" id="JqO-fA-eiK"/>
+                                </constraints>
+                                <mutableString key="text">From brothels to sex shops to museums, the Amsterdam Red Light District leaves nothing to the imagination. It is very likely that you will have heard about this neighbourhood and to be frank, everything you will have heard is probably true , but to really put rumours to rest, you have got to check it out for yourself. The Rossebuurt, as the locals know it, is unlike any other place. Guaranteed. Certainly, the Red Light District in Amsterdam that everyone knows about is the one where women, of all nationalities, parade their wares in red-fringed window parlours.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="M14-oa-ovH" firstAttribute="top" secondItem="Xje-8Y-oCp" secondAttribute="top" id="DRI-Hf-wt5"/>
+                            <constraint firstItem="MdF-JS-kKm" firstAttribute="top" secondItem="tlx-pw-dn0" secondAttribute="bottom" constant="26" id="E7U-qu-eRH"/>
+                            <constraint firstAttribute="trailing" secondItem="tlx-pw-dn0" secondAttribute="trailing" constant="20" id="GAl-BM-i7j"/>
+                            <constraint firstItem="M14-oa-ovH" firstAttribute="leading" secondItem="Xje-8Y-oCp" secondAttribute="leading" id="P7f-8W-Sym"/>
+                            <constraint firstItem="xKc-wf-ulY" firstAttribute="top" secondItem="ySA-3G-bhE" secondAttribute="bottom" id="Wsj-Vn-i0l"/>
+                            <constraint firstAttribute="trailing" secondItem="M14-oa-ovH" secondAttribute="trailing" id="eeN-vi-Mj3"/>
+                            <constraint firstItem="tlx-pw-dn0" firstAttribute="leading" secondItem="Xje-8Y-oCp" secondAttribute="leading" constant="20" id="ooJ-Ij-Zze"/>
+                            <constraint firstItem="xKc-wf-ulY" firstAttribute="leading" secondItem="Xje-8Y-oCp" secondAttribute="leading" constant="42" id="tHD-Vy-M3Z"/>
+                            <constraint firstItem="tlx-pw-dn0" firstAttribute="top" secondItem="M14-oa-ovH" secondAttribute="bottom" constant="8" id="tgw-Zu-ZeF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="feh-eW-CNe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="-817"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="af3-Sr-nfP">
+            <objects>
+                <viewController id="s8h-Pk-197" customClass="ViewController" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bBZ-jJ-IS9"/>
+                        <viewControllerLayoutGuide type="bottom" id="y3X-vg-Pn9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mqv-PI-Cnf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cool bar in amsterdam" translatesAutoresizingMaskIntoConstraints="NO" id="XzN-Tb-R6R">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="330"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="330" id="sa2-rr-jDV"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UHs-UT-2K2">
+                                <rect key="frame" x="9" y="338" width="579" height="249"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="579" id="LZ7-7F-6B8"/>
+                                    <constraint firstAttribute="height" constant="249" id="vxC-jY-hBu"/>
+                                </constraints>
+                                <mutableString key="text">Whether you’re after soaking up the atmosphere of a traditional Dutch brown café, lounging in a city luxurious grand café, enjoying a summer cocktail on one of the city’s many terraces or checking out the thriving bar scene, Amsterdam is the perfect place to enjoy a drink. With its rich heritage in brewing and distilling, you could say that Amsterdam likes a tipple. It’s impossible to walk for more than 50ft in the city without stumbling across a bar or café, and indeed watching the world go by from the comfort of a canal side terrace bar is one of the most pleasurable ways to while away an afternoon in Amsterdam. We would recommend some of the bars stated on this page: https://www.likealocalguide.com/amsterdam/bars</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUs-En-Pfa" customClass="typeOfAmsterdamButton" customModule="favorite_place" customModuleProvider="target">
+                                <rect key="frame" x="25" y="28" width="119" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="33p-As-QKW"/>
+                                    <constraint firstAttribute="height" constant="44" id="YIX-EL-4LX"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="pressedBackCoffee:" destination="s8h-Pk-197" eventType="touchUpInside" id="6li-qp-OhQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UHs-UT-2K2" firstAttribute="top" secondItem="XzN-Tb-R6R" secondAttribute="bottom" constant="8" id="2LM-Dq-f4o"/>
+                            <constraint firstItem="y3X-vg-Pn9" firstAttribute="top" secondItem="UHs-UT-2K2" secondAttribute="bottom" constant="13" id="AT2-7f-uCu"/>
+                            <constraint firstAttribute="trailing" secondItem="XzN-Tb-R6R" secondAttribute="trailing" id="D6z-cC-O1m"/>
+                            <constraint firstItem="XzN-Tb-R6R" firstAttribute="leading" secondItem="mqv-PI-Cnf" secondAttribute="leading" id="Qtb-qK-kQ0"/>
+                            <constraint firstItem="iUs-En-Pfa" firstAttribute="leading" secondItem="mqv-PI-Cnf" secondAttribute="leading" constant="25" id="Uej-Vx-vZy"/>
+                            <constraint firstItem="iUs-En-Pfa" firstAttribute="top" secondItem="bBZ-jJ-IS9" secondAttribute="bottom" constant="8" id="byB-V9-Nv8"/>
+                            <constraint firstItem="UHs-UT-2K2" firstAttribute="leading" secondItem="mqv-PI-Cnf" secondAttribute="leading" constant="9" id="kK2-rx-1Kz"/>
+                            <constraint firstItem="XzN-Tb-R6R" firstAttribute="top" secondItem="mqv-PI-Cnf" secondAttribute="top" id="lbB-EY-65R"/>
+                            <constraint firstAttribute="trailing" secondItem="UHs-UT-2K2" secondAttribute="trailing" constant="12" id="nt2-fD-frC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mGc-No-KNm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1773" y="-794"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rdJ-lV-GXY">
+            <objects>
+                <viewController id="dwC-mz-ya6" customClass="ViewController" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="azb-cj-zN2"/>
+                        <viewControllerLayoutGuide type="bottom" id="t7C-of-LxA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fEm-xD-viB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="canals" translatesAutoresizingMaskIntoConstraints="NO" id="lC4-AN-psf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="330"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="330" id="wvW-AQ-9pS"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0fg-dO-IIo">
+                                <rect key="frame" x="5" y="352" width="586" height="240"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="doM-wg-HZR"/>
+                                    <constraint firstAttribute="width" constant="586" id="uoN-mA-muv"/>
+                                </constraints>
+                                <mutableString key="text">Amsterdam is the most watery city in the world.
+Its canals and harbours fill a full quarter of her surface 
+Its waterways have always been its essence and its source of wealth
+The 17th century Canal Belt was placed on UNESCO's World Heritage list in 2011 and the medieval center of the city(The Red light district)is undergoing an extensive renovation with Project 1012. That name refers to the postal area code of that section of the city. That project aims to reduce prostitution in the area with at least 30 percent and to highlight the historical aspects of the oldest section of Amsterdam. If you want to know more about Amsterdam canal cruises and Amsterdam boat rental you can inform yourself on the next page: http://www.amsterdam.info/canals/</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ia-7w-wRU" customClass="typeOfAmsterdamButton" customModule="favorite_place" customModuleProvider="target">
+                                <rect key="frame" x="29" y="20" width="119" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="P0j-YT-3J9"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="119" id="T5T-20-4rE"/>
+                                    <constraint firstAttribute="height" constant="44" id="mIS-TQ-olD"/>
+                                    <constraint firstAttribute="width" constant="119" id="wV7-5r-pBJ"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="pressedBackCanals:" destination="dwC-mz-ya6" eventType="touchUpInside" id="1dH-DJ-KaH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="lC4-AN-psf" secondAttribute="trailing" id="4wr-RF-N2e"/>
+                            <constraint firstItem="4ia-7w-wRU" firstAttribute="leading" secondItem="fEm-xD-viB" secondAttribute="leading" constant="29" id="6QB-Ya-vkz"/>
+                            <constraint firstItem="0fg-dO-IIo" firstAttribute="top" secondItem="lC4-AN-psf" secondAttribute="bottom" constant="22" id="MYc-Y4-P3k"/>
+                            <constraint firstItem="lC4-AN-psf" firstAttribute="leading" secondItem="fEm-xD-viB" secondAttribute="leading" id="OUs-D5-ALe"/>
+                            <constraint firstAttribute="trailing" secondItem="0fg-dO-IIo" secondAttribute="trailing" constant="9" id="Xnj-4o-QlD"/>
+                            <constraint firstItem="lC4-AN-psf" firstAttribute="top" secondItem="fEm-xD-viB" secondAttribute="top" id="bB9-Cu-PHD"/>
+                            <constraint firstItem="4ia-7w-wRU" firstAttribute="top" secondItem="azb-cj-zN2" secondAttribute="bottom" id="dWl-Iz-gal"/>
+                            <constraint firstItem="t7C-of-LxA" firstAttribute="top" secondItem="0fg-dO-IIo" secondAttribute="bottom" constant="8" id="fF8-UV-bX1"/>
+                            <constraint firstItem="0fg-dO-IIo" firstAttribute="leading" secondItem="fEm-xD-viB" secondAttribute="leading" constant="5" id="ir1-HW-e9Z"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1uH-r7-XkW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1139" y="-141"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XS0-uO-hAJ">
+            <objects>
+                <viewController id="lne-NV-VkW" customClass="ViewController" customModule="favorite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QIn-GB-6kq"/>
+                        <viewControllerLayoutGuide type="bottom" id="W2T-sF-VuS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VXT-R8-zcV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee-shops-amsterdam-1" translatesAutoresizingMaskIntoConstraints="NO" id="6WE-yd-yT6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="330"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="330" id="qoS-CJ-Gs9"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rm0-HA-3jQ">
+                                <rect key="frame" x="5" y="338" width="582" height="254"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="582" id="Vpb-dO-yNg"/>
+                                    <constraint firstAttribute="height" constant="254" id="vSG-lJ-Ahc"/>
+                                </constraints>
+                                <mutableString key="text">Drug wars are rarely won, something the Dutch acknowledged in 1976 when they decriminalised marijuana and hash. Since then, the laws on cannabis have always been fuzzy, and it has never technically been legal. As for over-the-counter sales, coffeeshops weren't legalised until 1980. Amsterdam coffeeshops are under continual scrutiny and must regularly dance with the law. They can legally sell to you, but cannot buy from growers - the legislators assume that ganja magically appears in the storeroom. Some famous coffee shops are: Abraxas, Amnesia, Barney's, Coffeeshop Katsu, De Rokerij, Dutch Flowers, Greenhouse. Look them up, you won't be dissapointed.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wch-5K-5EM" customClass="typeOfAmsterdamButton" customModule="favorite_place" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="119" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="1Xi-XR-mSK"/>
+                                    <constraint firstAttribute="height" constant="44" id="WvV-Vs-IET"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="119" id="ZXc-FT-iKh"/>
+                                    <constraint firstAttribute="width" constant="119" id="c5X-ll-BNc"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="pressedBackCoffee:" destination="s8h-Pk-197" eventType="touchUpInside" id="oH3-hs-atQ"/>
+                                    <action selector="pressedBackShop:" destination="lne-NV-VkW" eventType="touchUpInside" id="Xga-7Z-SSR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Rm0-HA-3jQ" secondAttribute="trailing" constant="13" id="QAN-45-E7H"/>
+                            <constraint firstItem="Wch-5K-5EM" firstAttribute="leading" secondItem="VXT-R8-zcV" secondAttribute="leading" constant="20" id="Z0U-XP-vQC"/>
+                            <constraint firstAttribute="trailing" secondItem="6WE-yd-yT6" secondAttribute="trailing" id="ZzL-Mp-T6d"/>
+                            <constraint firstItem="Wch-5K-5EM" firstAttribute="top" secondItem="QIn-GB-6kq" secondAttribute="bottom" constant="8" id="bU6-HR-5CN"/>
+                            <constraint firstItem="6WE-yd-yT6" firstAttribute="top" secondItem="VXT-R8-zcV" secondAttribute="top" id="gbb-6S-el3"/>
+                            <constraint firstItem="Rm0-HA-3jQ" firstAttribute="leading" secondItem="VXT-R8-zcV" secondAttribute="leading" constant="5" id="kIQ-Wv-NsN"/>
+                            <constraint firstItem="6WE-yd-yT6" firstAttribute="leading" secondItem="VXT-R8-zcV" secondAttribute="leading" id="lNg-l1-UxH"/>
+                            <constraint firstItem="W2T-sF-VuS" firstAttribute="top" secondItem="Rm0-HA-3jQ" secondAttribute="bottom" constant="8" id="nu4-QJ-kgU"/>
+                            <constraint firstItem="Rm0-HA-3jQ" firstAttribute="top" secondItem="6WE-yd-yT6" secondAttribute="bottom" constant="8" id="tA5-0a-zUk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fCf-bY-YZx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1773" y="-141"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bongard-Viking-Sky-1-Mar-2011-Amsterdam-Canal-Tour-2" width="3872" height="2592"/>
+        <image name="amsterdam-red-light-district-001-1500x850" width="1500" height="844"/>
+        <image name="canals" width="4912" height="3264"/>
+        <image name="coffee-shops-amsterdam-1" width="1024" height="768"/>
+        <image name="compass" width="35" height="35"/>
+        <image name="cool bar in amsterdam" width="3072" height="2304"/>
+    </resources>
+</document>
